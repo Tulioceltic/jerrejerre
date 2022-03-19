@@ -1,0 +1,3 @@
+CREATE SCHEMA `databaseusuarios` ;
+USE databaseusuarios;
+create table Persona ( email VARCHAR(50), nombre VARCHAR(40), apellidos VARCHAR(60), codigo INT);

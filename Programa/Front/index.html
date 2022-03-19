@@ -1,0 +1,51 @@
+<DOCTYPE html!>
+<html lang="es">
+	<head>
+		<title>Subir</title>
+		<link rel="stylesheet" type="text/css" href="estilos.css">
+	</head>
+	<body>
+		<div class="cuadro">
+			<h1 class="titulo">GEMA S.A.S</h1>
+			<form class="formulario">
+				<h2>Formulario de carga de informacion</h2>
+				<input id="entrada" name="entrada" type="file" name="tabla">
+				<button id="send" name="send" class="send" onclick="enviar()">Enviar formulario</button>
+				<script src="revision.js"></script>
+				<p id="mensajes"></p>
+			</form>
+		</div>
+		<div>
+			<div id="usuariosActivos" class="cuadro">
+				<center>
+					<nav name="Titulo">Usuarios Activos</nav>
+					  
+							<table id="tabla1">
+			
+							</table>
+		
+				</center>
+			</div>
+			<div id="UsuariosInactivos" class="cuadro" >
+				<center>
+					<nav name="Titulo">Usuarios Inactivos</nav>
+					  
+							<table id="tabla2">
+			
+							</table>
+		
+				</center>
+			</div>
+			<div id="UsuariosEspera" class="cuadro" >
+				<center>
+					<nav name="Titulo">Usuarios En Espera</nav>
+					  
+							<table id="tabla3">
+			
+							</table>
+		
+				</center>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,22 @@
+.cuadro {
+	height: 400px;
+	width: 500px;
+	border-radius: 10px;
+	border: 1px solid #000;
+	padding: 0px;
+}
+.titulo {
+	background-color: #B7B7B7;
+	color: #fff;
+	margin: 0px;
+}
+.ingreso {
+	border-radius: 10px;
+	margin: 5px;
+	width: 400px;
+	border: 1px solid #000;
+}
+button{
+	border-radius: 5px;
+	margin-left: 350px;
+}
